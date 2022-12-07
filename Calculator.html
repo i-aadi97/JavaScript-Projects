@@ -12,8 +12,13 @@
         rel="stylesheet">
     <title>Calculator</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         header>h1 {
             text-align: center;
+            margin: 5px;
         }
         .calculator-section{
             width: 100%;
@@ -31,16 +36,18 @@
         }
         button.btn{
             margin: 0 3px;
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border: 1px solid #000;
-            border-radius: 30px;
+            border-radius: 50px;
             cursor: pointer;
         }
         .row > .inpt{
             height: 35px;
             width: 100%;
             padding: 0 15px;
+            margin-bottom: 10px;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -48,38 +55,38 @@
 <body>
     <header>
         <h1>Calculate Me</h1>
-        <section class="calculator-section">
-            <div class="container">
-                <div class="row">
-                    <input type="text" class="inpt">
-                </div>
-                <div class="row">
-                    <button class="btn">7</button>
-                    <button class="btn">8</button>
-                    <button class="btn">9</button>
-                    <button class="btn">/</button>
-                </div>
-                <div class="row">
-                    <button class="btn">6</button>
-                    <button class="btn">5</button>
-                    <button class="btn">4</button>
-                    <button class="btn">x</button>
-                </div>
-                <div class="row">
-                    <button class="btn">3</button>
-                    <button class="btn">2</button>
-                    <button class="btn">1</button>
-                    <button class="btn">-</button>
-                </div>
-                <div class="row">
-                    <button class="btn">0</button>
-                    <button class="btn">.</button>
-                    <button class="btn">=</button>
-                    <button class="btn">+</button>
-                </div>
-            </div>
-        </section>
     </header>
+    <section class="calculator-section">
+        <div class="container">
+            <div class="row">
+                <input type="text" class="inpt">
+            </div>
+            <div class="row">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">/</button>
+            </div>
+            <div class="row">
+                <button class="btn">6</button>
+                <button class="btn">5</button>
+                <button class="btn">4</button>
+                <button class="btn">x</button>
+            </div>
+            <div class="row">
+                <button class="btn">3</button>
+                <button class="btn">2</button>
+                <button class="btn">1</button>
+                <button class="btn">-</button>
+            </div>
+            <div class="row">
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="btn">=</button>
+                <button class="btn">+</button>
+            </div>
+        </div>
+    </section>
     <script>
 
     </script>
